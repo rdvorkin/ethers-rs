@@ -16,6 +16,7 @@ Supported signers:
 -   [Trezor](./src/trezor)
 -   [YubiHSM2](./src/wallet/yubi.rs)
 -   [AWS KMS](./src/aws)
+-   [Fireblocks](./src/fireblocks)
 
 For more information, please refer to the [book](https://gakonst.com/ethers-rs).
 

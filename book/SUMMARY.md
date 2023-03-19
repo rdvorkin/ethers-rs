@@ -77,6 +77,7 @@
   - [Sign message]()
   - [Trezor]()
   - [Yubi]()
+  - [Fireblocks]()
 - [Big numbers](./big-numbers/intro.md)
   - [Comparison and equivalence](./big-numbers/comparison-and-equivalence.md) 
   - [Conversion](./big-numbers/conversion.md)

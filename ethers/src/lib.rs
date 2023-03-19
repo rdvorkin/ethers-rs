@@ -42,7 +42,7 @@
 //!
 //! Provides a [`Signer`] trait which can be used for signing messages or transactions. A [`Wallet`]
 //! type is implemented which can be used with a raw private key or a YubiHSM2. Ledger and Trezor
-//! support are also provided.
+//! support are also provided. Fireblocks is also supported.
 //!
 //! ### `contract`
 //!

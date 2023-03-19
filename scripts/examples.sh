@@ -10,6 +10,7 @@ ignored=(
   "examples-wallets:ledger"
   "examples-wallets:trezor"
   "examples-wallets:yubi"
+  "examples-wallets:fireblocks"
   "examples-transactions:remove_liquidity"
 )
 

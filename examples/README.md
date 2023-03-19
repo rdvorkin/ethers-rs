@@ -79,3 +79,4 @@
   - [x] Sign message
   - [x] Trezor
   - [x] Yubi
+  - [x] Fireblocks

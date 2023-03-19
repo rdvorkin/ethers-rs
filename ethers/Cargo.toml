@@ -62,6 +62,7 @@ dev-rpc = ["ethers-providers/dev-rpc"]
 ledger = ["ethers-signers/ledger"]
 trezor = ["ethers-signers/trezor"]
 yubi = ["ethers-signers/yubi"]
+fireblocks = ["ethers-signers/fireblocks"]
 ## contracts
 abigen = ["ethers-contract/abigen"]
 ### abigen without reqwest

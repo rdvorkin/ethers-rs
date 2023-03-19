@@ -38,12 +38,20 @@ mod aws;
 #[cfg(feature = "aws")]
 pub use aws::{AwsSigner, AwsSignerError};
 
+#[cfg(all(feature = "fireblocks", not(target_arch = "wasm32")))]
+mod fireblocks;
+#[cfg(all(feature = "fireblocks", not(target_arch = "wasm32")))]
+pub use fireblocks::{FireblocksSigner, Config as FireblocksConfig, FireblocksMiddleware
+};
+
+
 use async_trait::async_trait;
 use ethers_core::types::{
     transaction::{eip2718::TypedTransaction, eip712::Eip712},
     Address, Signature,
 };
 use std::error::Error;
+
 
 /// Applies [EIP155](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md)
 pub fn to_eip155_v<T: Into<u8>>(recovery_id: T, chain_id: u64) -> u64 {
